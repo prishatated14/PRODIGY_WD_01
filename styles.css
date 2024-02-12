@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white; /* Added white background color */
+  }
+  
+  #navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Updated background color */
+    padding: 10px 0;
+    z-index: 1000; /* Ensure the menu is on top of other content */
+  }
+  
+  #navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  #navbar ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  #navbar ul li a {
+    text-decoration: none;
+    color: white; /* Changed font color to white */
+    padding: 10px 20px;
+    transition: color 0.3s ease; /* Smooth transition for font color */
+  }
+  
+  #navbar ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.6); /* Darken background on hover */
+  }
+  
+  #navbar ul li a.active {
+    color: gold; /* Font color for active state */
+  }
+  
+  /* Active section styling */
+  section {
+    padding: 50px 0; /* Add padding to sections for better readability */
+  }
+  
+  section.active {
+    background-color: #f0f0f0; /* Background color for the active section */
+  }
+
+  
